@@ -1,1 +1,19 @@
-//stylesheet for website
+body{
+  margin:0;
+  background:green;
+}
+
+h1{
+  background-color:black;
+  text-align:center;
+  font-size:2.5em;
+  color:white;
+  font-family:"Arial";
+  margin: 0;
+  padding: 1em;
+}
+
+@media screen and (min-width: 250px){
+  page-width:100%;
+}
+}
