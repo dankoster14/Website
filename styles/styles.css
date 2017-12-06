@@ -13,7 +13,37 @@ h1{
   padding: 1em;
 }
 
-@media screen and (min-width: 250px){
-  page-width:100%;
+main > input, section{
+  display: none;
+  padding: 1em;
+  clear: both;
 }
+
+label{
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  background: black;
+  line-height: 3em;
+  border-right: 1px solid black;
+}
+
+label:last-child{
+  border-right: none;
+}
+
+#tab1:checked ~ content1, #tab2:checked ~ content2, #tab3:checked ~ content3, #tab4:checked ~ content4{
+  display: block;
+}
+
+// mobile first
+@media screen and (max-width: 499px){
+  page-width:100%;
+  body{
+    background: white;
+  }
 }
