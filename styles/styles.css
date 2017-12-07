@@ -13,27 +13,27 @@ h1{
   padding: 1em;
 }
 
-nav{
+nav {
   background: black;
-  color: white;
+  display: none;
 }
-
-nav a{
+nav a {
   padding: 1em;
   display: block;
 }
 
-#menu{
+nav a:hover{
+  background: green;
+}
+#menu {
   padding: 1em;
   background: black;
   display: block;
 }
-
-.show-menu{
+.show-menu {
   display: block;
 }
-
-a{
+a {
   color: white;
   text-decoration: none;
 }
@@ -41,8 +41,8 @@ a{
 // breakpoint 1 - medium
 @media screen and (min-width: 500px){
   header{
-    background: white;
-    color: black;
+    background: black;
+    color: white;
   }
 
   nav a{
@@ -64,10 +64,11 @@ a{
   }
 }
 
+//breakpoint 2 - large
 @media screen and (min-width: 1000px){
   header{
-    background: white;
-    color: black;
+    background: black;
+    color: white;
   }
 
   nav{
