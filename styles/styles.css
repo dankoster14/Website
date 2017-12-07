@@ -1,49 +1,89 @@
 body{
-  margin:0;
-  background:green;
+  margin: 0;
+  background: green;
 }
 
 h1{
-  background-color:black;
-  text-align:center;
-  font-size:2.5em;
-  color:white;
-  font-family:"Arial";
+  background-color: black;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  font-family: "Arial";
   margin: 0;
   padding: 1em;
 }
 
-main > input, section{
-  display: none;
-  padding: 1em;
-  clear: both;
-}
-
-label{
-  display: block;
-  box-sizing: border-box;
-  float: left;
-  width: 20%;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
+nav{
   background: black;
-  line-height: 3em;
-  border-right: 1px solid black;
+  color: white;
 }
 
-label:last-child{
-  border-right: none;
-}
-
-#tab1:checked ~ content1, #tab2:checked ~ content2, #tab3:checked ~ content3, #tab4:checked ~ content4{
+nav a{
+  padding: 1em;
   display: block;
 }
 
-// mobile first
-@media screen and (max-width: 499px){
-  page-width:100%;
-  body{
+#menu{
+  padding: 1em;
+  background: black;
+  display: block;
+}
+
+.show-menu{
+  display: block;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+// breakpoint 1 - medium
+@media screen and (min-width: 500px){
+  header{
     background: white;
+    color: black;
+  }
+
+  nav a{
+    width: 24%;
+    display: inline-block;
+  }
+
+  nav a:hover{
+    background: green;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  main{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  header{
+    background: white;
+    color: black;
+  }
+
+  nav{
+    display: block;
+  }
+
+  nav a{
+    line-height: 3em;
+    width: inherit;
+  }
+
+  #menu{
+    display: none;
+  }
+
+  main{
+    max-width: 1000px;
   }
 }
