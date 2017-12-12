@@ -109,4 +109,11 @@ footer{
     border-color: green;
     font-size: 1.5em;
   }
+  table{
+    text-align: center;
+  }
+
+  table tr:nth-child(even){
+    background-color: #eee;
+  }
 }
