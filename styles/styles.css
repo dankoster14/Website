@@ -111,6 +111,7 @@ footer{
   }
   table{
     text-align: center;
+    font-family: arial;
   }
 
   table tr:nth-child(even){
