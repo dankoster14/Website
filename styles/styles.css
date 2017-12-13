@@ -118,3 +118,24 @@ footer{
     background-color: #eee;
   }
 }
+
+#animateballs{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#animateballs img{
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+}
+
+#animateballs img.top:hover{
+  opacity: 0;
+}
