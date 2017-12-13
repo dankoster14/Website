@@ -121,9 +121,9 @@ footer{
 
 #animateballs{
   position: relative;
-  height: 200px;
-  width: 200px;
   margin: 0 auto;
+  width: 200px;
+  height: 200px;
 }
 
 #animateballs img{
@@ -131,11 +131,27 @@ footer{
   left: 0;
   width: 200px;
   height: 200px;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
 }
 
-#animateballs img.top:hover{
-  opacity: 0;
+@keyframes animateballsFadeInOut {
+  0%{
+    opacity: 1;
+  }
+  45%{
+    opacity: 1;
+  }
+  55%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+#animateballs img.top{
+  animation-name: animateballsFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
 }
