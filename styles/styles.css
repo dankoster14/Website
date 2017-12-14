@@ -109,16 +109,22 @@ footer{
     border-color: green;
     font-size: 1.5em;
   }
-  table{
-    text-align: center;
-    font-family: arial;
-  }
 
-  table tr:nth-child(even){
-    background-color: #eee;
-  }
 }
 
+table{
+  text-align: center;
+  font-family: arial;
+  width: 100%
+}
+table.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table tr:nth-child(even){
+  background-color: #eee;
+}
 #animateballs{
   position: relative;
   margin: 0 auto;

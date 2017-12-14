@@ -3,15 +3,17 @@
   let menuButton = document.getElementById("menu");
   let navMenu = document.getElementById("nav-menu");
 
-  menuButton.addEventListener("click, toggleMenu");
+  menuButton.addEventListener("click", toggleMenu);
 
   let toggle = false;
   function toggleMenu(){
     if(toggle){
-      navMenu.classList.remove("show-menu"), toggle = false
+      navMenu.classList.remove("show-menu"),
+      toggle = false
     }
     else {
-      navMenu.classList.add("show-menu"), toggle = true
+      navMenu.classList.add("show-menu"),
+      toggle = true
     }
   }
 })();
