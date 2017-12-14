@@ -31,6 +31,10 @@ a {
   color: white;
   text-decoration: none;
 }
+.active{
+color: white;
+background: green;
+}
 h1 {
   font-size: 1.5em;
   margin: 0;
@@ -62,10 +66,7 @@ footer{
   nav a:hover {
     background: green;
   }
-  .active{
-	color: white;
-	background: green;
-}
+
   h1 {
     font-size: 2em;
   }
