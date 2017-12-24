@@ -22,4 +22,4 @@ During the development of the website, more specifically the navigation bar, the
 ![Navigation Screenshot](/images/navscreenshot.JPG)
 Screenshot of responsive navigation bar on iPhone screen
 
-On the latest results page I included an animation, where two images continuously rollover each other at regular intervals, the images are an 8 ball
+On the latest results page I included an animation, where two images continuously rollover each other at regular intervals, the images are an 8-ball and a 9-ball from English and American Pool.
