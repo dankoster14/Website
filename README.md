@@ -23,3 +23,14 @@ During the development of the website, more specifically the navigation bar, the
 Screenshot of responsive navigation bar on iPhone screen
 
 On the latest results page I included an animation, where two images continuously rollover each other at regular intervals, the images are an 8-ball and a 9-ball from English and American Pool.
+
+Before I started the development of the website I did some sketches of what I wanted the web pages to roughly look like and what the navigation actions were.
+
+![Site Design Sketch](/images/sitedesign.JPG)
+Image of site design sketch
+
+![Navigation Design Sketch](/images/navdesign.JPG)
+Image of navigation sketch
+
+![Form Design Sketch](/images/formdesign.JPG)
+Image of form sketch 
