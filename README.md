@@ -8,7 +8,7 @@ So, the header on all pages is in dark green with the background surrounding it 
 
 During the development stage I part of the brief of the assignment was to make sure that the website is responsive on other types of devices for example mobile devices and tablets, I have provided screenshots on how this looks on these devices.
 
-![laptop browser screenshot](https://raw.githubusercontent.com/dankoster14/Website/images/laptopscreenshot.png)
+![Screenshot](laptopscreenshot.png)
 Screenshot of what the website appears on Google Chrome on my laptop
 
 
