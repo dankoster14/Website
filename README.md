@@ -14,7 +14,7 @@ Screenshot of what the website appears on Google Chrome on my laptop
 ![iPhone Screenshot](https://github.com/dankoster14/Website/images/iphonescreenshot.JPG)
 Screenshot of what the website looks like in Safari on my iPhone X
 
-![iPad Screenshot](https://github.com/dankoster14/Website/images/ipadscreenshot.PNG)
+![iPad Screenshot](/images/ipadscreenshot.PNG)
 Screenshot of what the website looks like on my iPad Air
 
 During the development of the website, more specifically the navigation bar, the issue that I experienced with that was the Javascript that I used to code the responsiveness of the bar was that when the size was decreased and the menu elements went into their sub menu when clicked the elements wouldn't appear, this was because I had implemented the script in the wrong place in the html file, I had put it underneath where I had declared my stylesheet. I solved this by putting the script declaration at the bottom of the html file.
